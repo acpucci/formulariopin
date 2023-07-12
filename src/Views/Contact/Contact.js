@@ -6,7 +6,7 @@ function Contact() {
     const [newUser, setNewUser] = useState({ name: "", phone: "", email: "", message: "", notifications: false })
     const [success, setSuccess] = useState(false)
     const [error, setError] = useState(false)
-    const [errorMessage, setErrorMessage] = useState("Something went wrong! Try again")
+    const [errorMessage, setErrorMessage] = useState("Ups, Something went wrong! Try again")
 
 
     const disableSubmit = !newUser.name || !newUser.phone || !newUser.email || !newUser.message 
@@ -32,7 +32,7 @@ function Contact() {
         ).catch(
             error => {
                 setError(true)
-                error.message ? setErrorMessage(error.message) : setErrorMessage("Something went wrong! Try again")
+                error.message ? setErrorMessage(error.message) : setErrorMessage("Ups, Something went wrong! Try again")
             }
         )
     }
