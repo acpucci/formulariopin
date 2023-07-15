@@ -1,24 +1,12 @@
-.navbar{
-    position: absolute;
-    width: 100%;
-    z-index: 999;
-    background: none;
-}
-
-.carousel{
-    position: absolute;
-    top:0;
-}
-
-.head {
+.head{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 14vh;
+    height: 14v;
     width: 100%;
     border-bottom: 1px solid #E0752F;
 
-    
+
     .logo {
         margin-left: 20px;
         .imglogo {
@@ -27,7 +15,11 @@
         }
     }
 
-    .navbar{
+    .navbar {
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+        background: none;
 
         a{
             display: inline-block;
@@ -42,14 +34,21 @@
             color: #E0752F;
         }
     }
+    .carousel {
+        position: absolute;
+        top: 0;    
 
-}
+        
+        }
+    }
+
+
 
 .home{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    color: #ffff;
+position:relative;
+margin: top 254px;
+margin: left 101px;
+color: white;
 
     .title{
         font: normal normal 600 48px/48px Poppins;
@@ -89,7 +88,9 @@
     .btn:hover{
         background: none;
     }
-    
+
 }
+
+
 
 

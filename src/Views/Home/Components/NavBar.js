@@ -25,29 +25,22 @@ function NavBar() {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src={imagen1} class="d-block w-100" alt="..."/>
+                        <img src={imagen1} class="fondito" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                     </div>
                     <div class="carousel-item">
-                        <img src={imagen1} class="d-block w-100" alt="..."/>
+                        <img src={imagen1} class="fondito" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                     </div>
                     <div class="carousel-item">
-                        <img src={imagen1} class="d-block w-100" alt="..."/>
+                        <img src={imagen1} class="fondito" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                             </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            
-                </button>
+
             </div>
 
         </header>
