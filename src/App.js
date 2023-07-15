@@ -1,12 +1,15 @@
 import './App.scss';
 import Contact from './Views/Contact/Contact'
-import Home from './Views/Home/Home'
+//import Home from './Views/Home/Home'
+import About from './Views/About/About'
+import Services from './Views/Services/Services'
 
 function App() {
   
   return (
     <section>
-      <Home/>
+      <About/>
+      <Services/>
       <Contact/>
     </section>
   );
